@@ -94,7 +94,7 @@ resource "flexibleengine_networking_secgroup_rule_v2" "allowoutbound" {
 
 # 5.create VM
 resource "flexibleengine_compute_instance_v2" "ecs" {
-  name            = "production_ecs_bishoy22"
+  name            = "production_ecs_bishoy"
   image_id        = "830c9d19-4dea-4017-bb7e-c61a0846421f"
   flavor_name       = "s6.small.1"
   key_pair        = "bishoykey"
